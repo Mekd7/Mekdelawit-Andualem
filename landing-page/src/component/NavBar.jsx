@@ -9,7 +9,7 @@ export default function NavBar(){
             <li>Services</li>
             <li>Contact</li>
 
-            <button className="SignUp-btn bg-green-900 text-white py-2 px-4 rounded-3xl ml-100" >Sign Up</button>
+            <button className="SignUp-btn bg-teal-950  text-white py-2 px-4 rounded-3xl ml-100" >Sign Up</button>
         </ul>
     );
 }
