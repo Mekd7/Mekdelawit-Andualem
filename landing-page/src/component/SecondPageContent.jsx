@@ -2,8 +2,9 @@ import '../style.css'
 import { LineChartOutlined } from '@ant-design/icons';
 import { CodeSandboxOutlined } from '@ant-design/icons';
 import shield_icon_pic from '../images/shield_icon_pic.jpg';
-
+import { StarOutlined } from '@ant-design/icons';
 import { ToolOutlined } from '@ant-design/icons';
+import {FileOutlined} from '@ant-design/icons';
 
 export default function SecondPageContent(){
     return(
@@ -12,12 +13,14 @@ export default function SecondPageContent(){
             <p className=' text-center'>Simplify operations with our efficient, quality-focused services.</p>
             <div className='cards container pt-10 grid grid-cols-3 gap-10 ml-30 pb-20 '>
                 <section className='p-8 rounded-2xl shadow bg-teal-900 bg-opacity-50 h-70'>
-                    <h3 className='font-semibold text-2xl pt-30'>Prodcution and Assembly</h3>
+                    <StarOutlined style= {{ fontSize: '38px', color: 'white' }} />
+                    <h3 className='font-semibold text-2xl pt-15'>Prodcution and Assembly</h3>
                     <p>Details on production processes, assembly, capacity, and product types.</p>
                 </section>
 
                 <section className='p-8 rounded-2xl shadow bg-teal-900 bg-opacity-50 h-70'>
-                    <h3 className='font-semibold text-2xl pt-30'>Custom Manufacturing</h3>
+                    <FileOutlined style={{ fontSize: '38px', color: 'white' }} /> 
+                    <h3 className='font-semibold text-2xl pt-15'>Custom Manufacturing</h3>
                     <p>Custom product creation with design and customization options.</p>
                 </section>
 
