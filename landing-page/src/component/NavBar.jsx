@@ -26,7 +26,7 @@ export default function NavBar() {
                 </div>
 
                 {/* Mobile Menu Icon */}
-                <div className="sm:hidden flex justify-end ml-80 p-4">
+                <div className="sm:hidden flex justify-end ml-50 p-4">
                     <MenuOutlined className="text-3xl" onClick={toggleMenu} />
                 </div>
             </ul>
